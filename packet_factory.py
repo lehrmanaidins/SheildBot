@@ -64,7 +64,7 @@ class Packet:
         """
         return ''
 
-    def to_packet_bytes(self) -> bytes:
+    def to_bytes(self) -> bytes:
         """ Converts Packet to List of Bytes
         """
         return bytes(b'\x00')
